@@ -19,3 +19,4 @@ function dfs(root){
     }
     return Math.max(dfs(root.left), dfs(root.right)) + 1;
 }
+
